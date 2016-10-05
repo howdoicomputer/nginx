@@ -8,7 +8,7 @@ version           '2.7.6'
 recipe 'nginx',         'Installs nginx package and sets up configuration with Debian apache style with sites-enabled/sites-available'
 recipe 'nginx::source', 'Installs nginx from source and sets up configuration with Debian apache style with sites-enabled/sites-available'
 
-depends 'apt',             '~> 4.0.2'
+depends 'apt'
 depends 'bluepill',        '~> 2.3'
 depends 'build-essential', '~> 2.0'
 depends 'ohai',            '~> 2.0'
